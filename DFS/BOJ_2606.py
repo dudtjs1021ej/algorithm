@@ -17,9 +17,10 @@ def DFS(start, graph, virus):
                 virus[i] = 1
                 DFS(i, graph, virus)
 
+virus[1] = 1 #정점1은 감염됨
 DFS(1, graph, virus)
 count = 0
 for i in range(N+1):
     if virus[i] == 1: count += 1
 
-print(count-1) #자신 제외
+print(count-1) #자신(정점1) 제외하고 출력
