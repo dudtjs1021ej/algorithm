@@ -5,5 +5,5 @@
 ## 🔍문제 출처
 - [백준](https://www.acmicpc.net/)
 - [프로그래머스](https://programmers.co.kr/learn/challenges)
-- [구름debth](https://devth.goorm.io/)
+- [파이썬 알고리즘 인터뷰(](https://devth.goorm.io/)
 - [삼성SW 익스퍼트 아카데미](https://swexpertacademy.com/main/main.do)
