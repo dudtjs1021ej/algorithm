@@ -7,11 +7,8 @@ def mySolution():
     n, k = map(int,input().split())
     # 중복 제거를 위해 리스트 -> 셋 -> 리스트
     card = list(map(int, input().split()))
-    print(card)
     card = set(card) 
-    print(card)
     card = list(card)
-    print(card)
     sums = set() # 합들을 더할 집합 sums
 
     for i in range(len(card)):
@@ -28,7 +25,6 @@ def mySolution():
         
     sums = list(sums) # 중복제거를 위해 set으로 선언했다가 인덱스로 접근하기 위해 리스트 타입 변경
     sums.sort()
-    print(sums)
     print(sums[len(sums)-k+1])
 
 # --답--
